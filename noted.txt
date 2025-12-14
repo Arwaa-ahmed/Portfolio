@@ -1,0 +1,14 @@
+box-sizing:content-box
+           border-box
+*content-box
+make the child out of the parent
+يعني ل انا العرض عندي 100% 
+وجيت ف الابن زودت بادينج وبوردر كدا هيخرج برا ال 100%
+عشان كدا بنختار 
+ box-sizing:border-box
+justify-content:space-between
+دا بيخلي فيه مسافة ما بين ال child elements
+* we used em instead of pixel to be realated to font size of body (16px by default)
+so 1em=>16px
+align-items:center
+ بيخلي العناصر بتاعي ف النص افقي

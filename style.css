@@ -103,7 +103,7 @@ nav a:hover{
     font-size: 1.3em;
     margin: 15px 5px;
 }
-.services h2{
+ .title{
     display: flex;
     justify-content: center;
     color: #5F5F5F;
@@ -144,4 +144,59 @@ nav a:hover{
 .card:hover{
    transform: scale(1.1,1.1);
 
+}
+.projects{
+    margin-top: 20px;
+    background-color: #F3E6D3;
+}
+.projects .title{
+    margin-top: 10px;
+}
+.cards .imgs img{
+    width: 15em;
+    height: 20em;
+    width: 100%;
+} 
+.cards{
+    width: 23em;
+    min-height: 15em;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.08);
+    border: 2px solid white;
+    transition: 1s;
+    margin-right: 2em;
+    margin-top: 2em;
+    border-radius: 15px;
+}
+.projects .content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.projects .info{
+    padding: 10px;
+    color: #1F2937;
+}
+.projects .info p{
+    font-size: .9em;
+}
+.projects .info strong a{
+    color: #7B3FE4;
+    text-transform: uppercase;
+}
+.projects .info strong a:hover{
+    color: #4f3e77;
+}
+.projects .info strong{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.cards:hover{
+    transform: scale(1.1,1.1);
+}
+.cards img:hover{
+    opacity: .9;
 }
